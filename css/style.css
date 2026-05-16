@@ -6170,3 +6170,36 @@ summary{color:#4b3122!important;}
     #mapCreatorPassport .mini-passport-photo,
     #mapCreatorPassport .mini-passport-photo img{height:330px!important;min-height:330px!important;}
   }
+
+/* ===== final-source-links-and-game-fallback ===== */
+.passport-photo-frame.source-passport-photo,
+.photo.source-gallery-photo{
+  position:relative!important;
+  background:#efe7d7!important;
+  overflow:hidden!important;
+}
+.passport-photo-frame.source-passport-photo img{
+  width:100%!important;
+  height:100%!important;
+  display:block!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+  background:#f8f2e6!important;
+  filter:grayscale(.05) sepia(.14) contrast(1.04)!important;
+}
+.photo.source-gallery-photo img{
+  width:100%!important;
+  height:100%!important;
+  display:block!important;
+  object-fit:cover!important;
+  object-position:center center!important;
+  filter:grayscale(.04) sepia(.14) contrast(1.05)!important;
+}
+#game .writer-game-full .profiles{
+  min-height:238px!important;
+  display:grid!important;
+}
+#game .writer-game-full .profile{
+  visibility:visible!important;
+  opacity:1!important;
+}
